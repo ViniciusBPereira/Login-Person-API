@@ -1,0 +1,97 @@
+= API Docs
+
+== Post
+Create New User for Login
+
+/api/v1/login-service/user
+
+HTTP Request:
+include::../../../target/snippets/post-user/http-request.adoc[]
+HTTP Response:
+include::../../../target/snippets/post-user/http-response.adoc[]
+CURL Request:
+include::../../../target/snippets/post-user/curl-request.adoc[]
+Request Body:
+include::../../../target/snippets/post-user/request-body.adoc[]
+Response Body:
+include::../../../target/snippets/post-user/response-body.adoc[]
+
+== GET
+Get Token for Send Request
+
+/api/v1/login-service
+
+HTTP Request:
+include::../../../target/snippets/get-token/http-request.adoc[]
+HTTP Response:
+include::../../../target/snippets/get-token/http-response.adoc[]
+CURL Request:
+include::../../../target/snippets/get-token/curl-request.adoc[]
+Request Body:
+include::../../../target/snippets/get-token/request-body.adoc[]
+Response Body:
+include::../../../target/snippets/get-token/response-body.adoc[]
+
+== GET
+Get Info All People
+
+/api/v1/person-service/
+
+HTTP Request:
+include::../../../target/snippets/get-people/http-request.adoc[]
+HTTP Response:
+include::../../../target/snippets/get-people/http-response.adoc[]
+CURL Request:
+include::../../../target/snippets/get-people/curl-request.adoc[]
+Request Body:
+include::../../../target/snippets/get-people/request-body.adoc[]
+Response Body:
+include::../../../target/snippets/get-people/response-body.adoc[]
+
+== GET
+Get Info Person
+
+/api/v1/person-service/{id}
+
+HTTP Request:
+include::../../../target/snippets/get-person/http-request.adoc[]
+HTTP Response:
+include::../../../target/snippets/get-person/http-response.adoc[]
+CURL Request:
+include::../../../target/snippets/get-person/curl-request.adoc[]
+Request Body:
+include::../../../target/snippets/get-person/request-body.adoc[]
+Response Body:
+include::../../../target/snippets/get-person/response-body.adoc[]
+
+== Post
+Save New Person
+
+/api/v1/person-service/
+
+HTTP Request:
+include::../../../target/snippets/post-person/http-request.adoc[]
+HTTP Response:
+include::../../../target/snippets/post-person/http-response.adoc[]
+CURL Request:
+include::../../../target/snippets/post-person/curl-request.adoc[]
+Request Body:
+include::../../../target/snippets/post-person/request-body.adoc[]
+Response Body:
+include::../../../target/snippets/post-person/response-body.adoc[]
+
+== DELETE
+Delete Person
+
+/api/v1/person-service/{id}
+
+HTTP Request:
+include::../../../target/snippets/delete-person/http-request.adoc[]
+HTTP Response:
+include::../../../target/snippets/delete-person/http-response.adoc[]
+CURL Request:
+include::../../../target/snippets/delete-person/curl-request.adoc[]
+Request Body:
+include::../../../target/snippets/delete-person/request-body.adoc[]
+Response Body:
+include::../../../target/snippets/delete-person/response-body.adoc[]
