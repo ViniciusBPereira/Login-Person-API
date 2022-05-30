@@ -1,6 +1,7 @@
 # Login-Person-API
 Creating API with Spring Boot. Login-Controller and Person-Controller
-Dependencies:
+---------------------------------------------------------------------
+> Dependencies:
 - Web
 - Devtools
 - Lombok
