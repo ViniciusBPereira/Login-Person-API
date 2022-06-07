@@ -1,5 +1,5 @@
 # Login-Person-API
-Creating API with Spring Boot. Login-Controller and Person-Controller.
+Creating API Rest with Spring Boot. Login-Controller and Person-Controller.
 > Dependencies:
 - Web
 - Devtools
